@@ -1,17 +1,9 @@
 <script lang="ts">
-  let hello = "world";
+  import Mail from "~/test/Mail.svelte";
+  const mail = "substantiation@naver.com";
 </script>
 
-<div>
-  <h1>
-    hello {hello}
-  </h1>
-</div>
+<Mail {mail} />
 
 <style lang="scss">
-  div {
-    h1 {
-      color: blue;
-    }
-  }
 </style>
